@@ -1,0 +1,460 @@
+@font-face{
+	font-family:"War is Over";
+	src:url("fuentes/War is Over.ttf");
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+	flex-direction: row;
+    flex-wrap: wrap;
+}
+.fondo2{
+	margin:0%;
+	background-image:url(imagenes/pueblo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+ 	padding: 0;
+	min-height: 100vh; /* ocupa toda la altura visible */
+    background-position: center; /* centra la imagen */
+    background-attachment: fixed; /* mantiene fijo al hacer scroll */
+}
+
+.contenedor{
+    height: 100vh;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.personajes{
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+h1{
+	font-family:"War is Over";
+	font-size:50px;
+	color:white;
+}
+.card{
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    transition: 300ms;
+	display:flex;
+}
+
+.leon, .ashley, .ada,  .luis,  .ingrid,  .saddler,   .mendez,  .salazar,  .krauser,   .wesker,   .mercader{
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color:rgba(20 ,30 ,50 ,0.7);
+    transition: 300ms;
+    position: absolute;
+	flex-direction:column;
+}
+
+.imagen_leon{
+    height: 130px;
+    width: 200px;
+    background-image: url(imagenes/p/leonnormal.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_ashley{
+    height: 200px;
+    width: 250px;
+    background-image: url(imagenes/p/ashleynormal.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_ada{
+    height:180px;
+    width: 200px;
+    background-image: url(imagenes/p/adanormal.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_luis{
+    height: 200px;
+    width: 200px;
+    background-image: url(imagenes/p/luisnormal.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_ingrid{
+    height: 200px;
+    width: 200px;
+    background-image: url(imagenes/p/ingridnormal.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_saddler{
+    height: 350px;
+    width: 200px;
+    background-image: url(imagenes/p/saddlernormal.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_mendez{
+    height: 350px;
+    width: 200px;
+    background-image: url(imagenes/p/mendeznormal.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+
+
+.imagen_salazar{
+    height: 350px;
+    width: 200px;
+    background-image: url(imagenes/p/salazarnormal.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_krauser{
+    height: 350px;
+    width: 200px;
+    background-image: url(imagenes/p/krausernormal.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_wesker{
+    height: 250px;
+    width: 200px;
+    background-image: url(imagenes/p/weskernormal.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+
+.imagen_mercader{
+    height: 350px;
+    width: 200px;
+    background-image: url(imagenes/p/mercadernormal.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.detalle, .detalle_2, .detalle_3  .detalle_4, .detalle_5 .detalle_6, .detalle_7 .detalle_8, .detalle_9 .detalle_10, .detalle_11{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-top: 150px;
+    z-index: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    transition: 300ms;
+	display:flex;
+	flex-direction:column;
+}
+
+.detalle_luis{
+	height: 200px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    z-index: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    transition: 300ms;
+	
+	
+}
+
+.detalle_wesker{
+	height: auto;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-top: 150px;
+    z-index: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    transition: 300ms;
+	display:flex;
+	flex-direction:column;
+	
+}
+/* hover */
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card:hover .imagen_leon{
+    /*transform: translatey(10px);*/
+    transition: 300ms;
+    filter: none;
+    background-image: url(imagenes/p/leonq.png);
+}
+
+.card:hover .imagen_ashley{
+    transform: translatey(-5px);
+    transition: 300ms;
+    filter: none;
+    background-image:  url(imagenes/p/ashleyq.png);
+}
+
+.card:hover .imagen_ada{
+   transform: translatey(-4px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(imagenes/p/adaq.png);
+}
+.card:hover .imagen_luis{
+    transform: translatey(-4px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(imagenes/p/luisq.png);
+}
+
+.card:hover .imagen_ingrid{
+    transform: translatey(-4px);
+    transition: 300ms;
+    filter: none;
+    background-image:  url(imagenes/p/ingridq.png);
+}
+
+.card:hover .imagen_saddler{
+    transform: translatey(-4px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(imagenes/p/saddlerq.png);
+}
+.card:hover .imagen_salazar{
+    transform: translatey(-5px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(imagenes/p/salazarq.png);
+}
+
+.card:hover .imagen_krauser{
+    transform: translatey(-4px);
+    transition: 300ms;
+    filter: none;
+    background-image:  url(imagenes/p/krauserq.png);
+}
+
+.card:hover .imagen_wesker{
+    transform: translatey(-4px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(imagenes/p/weskerq.png);
+}
+.card:hover .imagen_mercader{
+    transform: translatey(-4px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(imagenes/p/mercaderq.png);
+}
+
+
+.card:hover .imagen_mendez{
+    transform: translatey(-4px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(imagenes/p/mendezq.png);
+}
+
+
+
+.card:hover .leon{
+    background-color:#1f3b6b;
+}
+
+.card:hover .ashley{
+    background-color: #d9b65c;
+}
+
+.card:hover .ada{
+    background-color:#7b1e28;
+}
+.card:hover .luis{
+    background-color:#4a3e5c ;
+}
+
+.card:hover .ingrid{
+	
+	background-color:#2e4b7a ;
+}
+
+.card:hover .saddler{
+    background-color:#4b1f58 ;
+}
+
+.card:hover .mendez{
+    background-color: #3d2618;
+}
+.card:hover .salazar{
+    background-color:#8b6b2f ;
+}
+.card:hover .krauster{
+    background-color:#324f3a;
+}
+.card:hover .wesker{
+    background-color:#0c1a24;
+} 
+
+.card:hover .mercader{
+    background-color:#2b235b ;
+}
+
+
+
+
+/* texto y bottun */
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    margin: auto;
+    width: 90%;
+    font-size: 15px;
+	text-align:justify;
+}
+	/*mediaqueries*/
+@media screen and (max-width:800px)
+{
+	.personajes{
+		flex-direction:column;
+		
+	}
+	.card{
+		width:100%;
+		justify-content:center;
+		height:auto;
+		margin:0%;
+		margin-bottom:20%;
+		margin-top:20%;
+	}
+	.detalle, .detalle_2, .detalle_3  .detalle_4, .detalle_5 .detalle_6, .detalle_7 .detalle_8, .detalle_9 .detalle_10, .detalle_11{
+		height:auto;
+		padding-top:0%;
+	}
+	.número{
+		align-items:center;
+	}
+	.imagen_leon, .imagen_ashley, .imagen_ada, .imagen_luis, .imagen_ingrid, .imagen_saddler, .imagen_mendez, .imagen_krauser, .imagen_salazar, .imagen_wesker, .imagen_mercader{
+		width:100%;
+	}
+	
+	.leon{
+		position:relative;
+		justify-content: flex-start;
+		height:500px;
+	}
+	.ashley{
+		position:relative;
+		justify-content: flex-start;
+		height:500px;
+	}
+	.ada{
+		position:relative;
+		justify-content: flex-start;
+		height:450px;
+	}
+	.luis{
+		position:relative;
+		justify-content: flex-start;
+		height:400px;
+	}
+	.ingrid{
+		position:relative;
+		justify-content: flex-start;
+		height:400px;
+	}
+	.saddler{
+		position:relative;
+		justify-content: flex-start;
+		height:400px;
+	}
+	.mendez{
+		position:relative;
+		justify-content: flex-start;
+		height:400px;
+	}
+	.salazar{
+		position:relative;
+		justify-content: flex-start;
+		height:400px;
+	}
+	.krauser{
+		position:relative;
+		justify-content: flex-start;
+		height:400px;
+		margin-top:40%;
+	}
+	.wesker{
+		position:relative;
+		justify-content: flex-start;
+		height:400px;
+		margin-top:40%;
+	}
+	.mercader{
+		position:relative;
+		justify-content: flex-start;
+		height:400px;
+		margin-top:40%;
+	}
+	.número{
+		padding-top:2%;
+		
+	.whatsapp{
+		width:90%;
+		padding:2%;
+	}
+	.whatsapp p{
+		text-align:center;
+	}
+}
