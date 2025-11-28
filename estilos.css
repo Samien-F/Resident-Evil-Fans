@@ -1,0 +1,497 @@
+@font-face{
+	font-family:"Leander";
+	src:url("fuentes/Leander.ttf");
+}
+@font-face{
+	font-family:"War is Over";
+	src:url("fuentes/War is Over.ttf");
+}
+
+.fondo{
+	margin:0%;
+	background-image:url(imagenes/fondo.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.traduccion{
+	width:4%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.traduccion img{
+	width:100%;
+}
+.traduccion a{
+	margin:auto;
+}
+body{
+	background-image:url(imagenes/pueblo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0%;
+}
+header{
+	width:100%;
+	height:auto;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding-top:2%;
+}
+main{
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+footer{
+	width:100%;
+	height:auto;
+	display:flex;
+	background-color:rgba(0, 0, 0, 0.5);
+	justify-content:space-around;
+	margin-top:2%;
+	align-items:center;
+}
+img{
+	width:auto;
+	height:100%;
+}
+nav{
+	width:90%;
+	height:auto;
+	display:flex;
+}
+nav a{
+	font-family:"Leander";
+	color:white;
+	margin:auto;
+}
+nav a:link, nav a:visited{
+	
+	display:flex;
+    font-family:Leander;
+    width:auto;
+	height:40px;
+	align-items:center;
+	justify-content: space-around;
+	text-decoration:none;
+	font-weight:bold;
+	color:#c5323f;
+	transition:all 1s;
+	text-shadow: 0px 0px 30px #ffffff;
+}
+nav	a:hover{
+	font-size:20px;
+	color:white;
+}
+.logo{
+	width:12%;
+	height:auto;
+	align-items:center;
+	display:flex;
+}
+.logo img{
+	width:100%;
+	margin:10%;
+}
+.texto{
+	width:100%;
+	height:auto;
+	display:flex;
+	align-items:flex-end;
+}
+.titulo{
+	width:40%;
+	height:auto;
+	display:flex;
+	padding-left:10%;
+	flex-direction:column;
+}
+.titulo h2{
+	color:white;
+	font-family:"Leander";
+	font-size: 30px;
+	margin:0%;
+}
+.titulo h1{
+	font-family:"War is Over";
+	font-size:90px;
+	color:#780606;
+	text-shadow: 0px 0px 30px #ffffff;
+}
+.titulo p{
+	color:white;
+}
+.titulo a{
+	font-family:"War is Over";
+	color:white;
+	font-size:50px;
+	text-align:center;
+	margin:auto;
+	padding:2%;
+	text-decoration:none;
+	margin-bottom:4%;
+	transition:0.5s;
+}
+.titulo a:hover{
+	text-shadow: 0px 0px 30px #ffffff;
+	transition:0.5s;
+}
+.categoría{
+	display:flex;
+	flex-direction:column;
+	width:40%;
+	height:auto;
+	justify-content:space-around;
+}
+.número{
+	display:flex;
+	flex-direction:column;
+	width:30%;
+	height:100%;
+	color:white;
+}
+.número img{
+	width:10%;
+	height:auto;
+}
+.contactanos{
+	display:flex;
+	flex-direction:column;
+	width:30%;
+	height:auto;
+	color:white;
+}
+.contactanos img{
+	width:8%;
+	height:auto;
+}
+.historia{
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-direction:flex;
+}
+.slider{
+	display:flex;
+	width:50%;
+	height:auto;
+	margin-left:1%;
+	align-items:center;
+}
+.info{
+	display:flex;
+	width:50%;
+	height:auto;
+	flex-direction:column;
+}
+.info p{
+	font-size:20px;
+	letter-spacing:1px;
+	padding:2%;
+	line-height:1.3;
+}
+h1{
+	color:white;
+	font-family:"Leander";
+	font-size: 30px;
+	margin:2%;
+}
+.whatsapp{
+	display:flex;
+	letter-spacing:2px;
+	font-size:20px;
+}
+.whatsapp img{
+	width:15%;
+}
+.redes{
+	width:80%;
+	display:flex;
+	justify-content:space-evenly;
+	height:100%;
+	border-radius:10px;
+	background-image:url(imagenes/papel.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:2%;
+	padding:2%;
+}
+.redes a{
+	width:15%;
+	height:auto;
+	margin:auto;
+	transition:0.5s;
+	display:flex;
+}
+.redes a:hover{
+	width:20%;
+	transition:0.5s;
+}
+.redes img{
+	width:100%;
+}
+.categoría{
+	display:flex;
+	flex-wrap:wrap;
+	height:145px;
+}
+.categoría a{
+	text-decoration:none;
+	color:white;
+	height:30px;
+	padding:1%;
+	padding-bottom:0%;
+	width:auto;
+	margin-right:auto;
+}
+.abuelo{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+}
+.padre{
+	width:50%;
+	height:auto;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+}
+.hijo{
+	width:200%;
+	height:200px;
+	display:flex;
+	padding:3%;
+	flex-direction:column;
+	border:10px outset;
+	border-color:red;
+	background-color:#111111;
+	border-radius:30px;
+}
+hr{
+	width:90%;
+}
+
+.hijo2{
+	width:60%;
+	height:auto;
+	border:10px outset;
+	border-color:red;
+	background-color:#111111;
+	border-radius:30px;
+	display:flex;
+	margin:5%;
+	flex-direction:column;
+}
+.hijo2 h2{
+	text-align:center;
+	color:white;
+}
+.hijo2 p{
+	text-align:justify;
+	padding:2%;
+	font-family:"Leander";
+	color:white;
+}
+.foto{
+	display:flex;
+	height:85%;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+}
+.foto img{
+	width:100%;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+}
+.nombre{
+	width:100%;
+	height:15%;
+	background-color:#eb3131;
+	display:flex;
+	align-items:center;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+}
+.nombre p{
+	text-align:center;
+	font-family:"Leander";
+	font-size:17px;
+	width:100%;
+}
+
+
+
+
+/*subrayado*/
+.categoría a{
+  display: inline-block;
+  position: relative;
+}
+
+.categoría a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transition: transform 0.25s ease-out;
+}
+
+.categoría a:hover::after {
+  transform: scaleX(1);
+}
+
+.categoría a::after {
+  transform-origin: bottom right;
+}
+
+.categoría a:hover::after {
+  transform-origin: bottom left;
+}
+
+
+.redes a:hover {
+	filter: grayscale(0%);
+	}
+.redes a{
+	filter: grayscale(100%);
+	}
+	
+	/*mediaqueries*/
+@media screen and (max-width:1000px)
+{
+	.historia{
+		flex-direction:column-reverse;
+		}
+	.info{
+		width:100%;
+	}
+	.slider{
+		width:100%;
+		margin:0%;
+	}
+	header{
+		flex-direction:column;
+	}
+	nav{
+		width:90%;
+	}
+	.logo{
+		width:20%;
+	}
+}
+
+	/*mediaqueries*/
+@media screen and (max-width:800px)
+{
+	.titulo{
+		width:100%;
+	}
+	header{
+		flex-direction:column;
+		background-color:rgba(0, 0, 0, 0.55);
+		border-bottom-left-radius:50px;
+		border-bottom-right-radius:50px;
+	}
+	.logo{
+		width:60%;
+		justify-content:center;
+	}
+	nav{
+		width:100%;
+		height:auto;
+		flex-direction:column;
+		margin-bottom:4%;
+		
+	}
+	nav a{
+		font-size:25px;
+	}
+	.titulo{
+		padding-left:1%;
+		padding-right:1%;
+	}
+	h1{
+		text-align:center;
+		
+	}
+	h2{
+		padding-left:1%;
+		padding-right:1%;
+		text-align:center;
+		font-size:30px;
+	}
+	p{
+		padding-left:3%;
+		padding-right:3%;
+		text-align:justify;
+		font-size:25px;
+	}
+	.titulo a{
+		font-size:60px;
+	}
+	footer{
+		flex-direction:column;
+		background-color:rgba(0, 0, 0, 0.55);
+		border-top-left-radius:50px;
+		border-top-right-radius:50px;
+	}
+	.categoría{
+		width:100%;
+		margin-top:4%;
+	}
+	.categoría a{
+		padding-left:5%;
+		font-size:20px;
+	}
+	.número{
+		width:100%;
+	}
+	.whatsapp{
+		justify-content:center;
+	}
+	.whatsapp img{
+		width:20%;
+	}
+	.contactanos{
+		width:100%;
+	}
+	.redes{
+		margin:auto;
+		margin-bottom:4%;
+	}
+	.redes a{
+		margin:4%;
+		align-items:center;
+		width:20%;
+	}
+	span{
+		font-size:27px;
+	}
+	.personajes{
+		flex-direction:column;
+	}
+	.abuelo{
+		flex-direction:column;
+	}
+	.padre{
+		width:100%;
+		flex-direction:column;
+	}
+	.hijo{
+		width:50%;
+	}
+	.hijo2{
+		width:80%;
+	}
+	.traduccion{
+	width:10%;
+	}
+}
